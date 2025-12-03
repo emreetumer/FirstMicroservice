@@ -361,3 +361,29 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+
+########################################
+# ANGULAR / VITE FRONTEND IGNORE
+########################################
+
+# Node modules
+node_modules/
+
+# Angular build outputs
+dist/
+.angular/
+.angular/cache/
+
+# Vite build outputs
+.vite/
+deps/
+*.tsbuildinfo
+
+# Browser build chunks
+*.chunk.js
+*.chunk.js.map
+
+# Environment files
+src/environments/*.prod.ts
+
