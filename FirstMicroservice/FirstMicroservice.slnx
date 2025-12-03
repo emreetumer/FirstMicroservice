@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="FirstMicroservice.Categories.WebAPI/FirstMicroservice.Categories.WebAPI.csproj" Id="cf307a45-9085-4e2c-bf46-0b814ce1808d" />
+  <Project Path="FirstMicroservice.Ocelot.Gateway/FirstMicroservice.Ocelot.Gateway.csproj" Id="08b6f702-2cf3-4b1c-b923-a4ccdda632a2" />
   <Project Path="FirstMicroservice.Todos.WEBAPI/FirstMicroservice.Todos.WEBAPI.csproj" />
 </Solution>
