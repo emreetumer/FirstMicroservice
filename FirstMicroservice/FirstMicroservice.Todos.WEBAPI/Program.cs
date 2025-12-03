@@ -11,7 +11,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 var app = builder.Build();
 
-app.MapGet("/todos/create", (string work, ApplicationDbContext context) =>
+app.MapPost("/todos/create", (string work, ApplicationDbContext context) =>
 {
     Todo todo = new()
     {
